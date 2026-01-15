@@ -1,0 +1,35 @@
+{
+  "name": "noop-enterprise",
+  "version": "1.0.0",
+  "description": "noopxrtxthtkvjhvtyvghggfgfhgfhfghfhgfhgfgfujuftj",
+  "keywords": [
+    "noop",
+    "enterprise"
+  ],
+  "homepage": "https://github.com/enterprise-npm-ai/noop-enterprise#readme",
+  "bugs": {
+    "url": "https://github.com/enterprise-npm-ai/noop-enterprise/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enterprise-npm-ai/noop-enterprise.git"
+  },
+  "license": "MIT",
+  "author": "me",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node --expose-gc tests/test"
+  },
+  "dependencies": {
+    "construct-new-second": "^1.0.0",
+    "is-equal": "^1.7.0",
+    "lolite.__private.date": "^1.1.15"
+  },
+  "devDependencies": {
+    "enterprise-10x-testing-framework-js": "^1.0.1"
+  }
+}
