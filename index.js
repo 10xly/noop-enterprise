@@ -13,11 +13,11 @@
 
 // Code begins.
 
-// line 17: import positive value
+// line belo: import positive value
 const POSITIVE_VALUE = require("./lib/constants/POSITIVE_VALUE")
-// line 19: NORMALLY USE OF THIS WOULD FIRE USER OF THE SAID MODULE, BUT AS THE DEVELOPER OF THIS MODULE, I CAN USE THIS. CONTRIBUTORS CAN'T. IF THE FUNCTIONALITY THEY WANT IS ONLY IN THE SPECIFIC MODULE, THEN THEY MUST WRITE THEIR OWN MODULE. NO BUTS. NO IFS. NO ANDS. NO ORS. NO BEFORE. NO AFTER. NO INBETWEEN.
+// line belo: NORMALLY USE OF THIS WOULD FIRE USER OF THE SAID MODULE, BUT AS THE DEVELOPER OF THIS MODULE, I CAN USE THIS. CONTRIBUTORS CAN'T. IF THE FUNCTIONALITY THEY WANT IS ONLY IN THE SPECIFIC MODULE, THEN THEY MUST WRITE THEIR OWN MODULE. NO BUTS. NO IFS. NO ANDS. NO ORS. NO BEFORE. NO AFTER. NO INBETWEEN.
 const __DO_NOT_USE_OR_BE_FIRED_EXPERIMENTAL_SELF_DESTRUCT_CLASS_RETURNER__ = require("./lib/do_not_use_or_be_fired/self_destructor")
-// line 21: import construct-new-second
+// line belo: import construct-new-second
 const construct = require("./lib/libraries/libraries").classUtilities
   .constructNewSecond
 

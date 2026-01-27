@@ -1,6 +1,10 @@
 # Noopxrtxthtkvjhvtyvghggfgfhgfhfghfhgfhgfgfujuftj
 Enterprise-grade serious noop function.
 
+**EXTREMELY IMPORTANT NOTICE: READ THE ENTRE INDEX.JS FILE, THE ENTIRE README (ESPECIALLY THE SECTION ENTITLED "READ ME!!! READ ME!!!"), AND THE ENTIRE LICENCE BEFORE USING THE SOFTWARE. OR DON'T, BUT COMPLETELY AT YOUR OWN RISK**
+
+**ALSO READ EVERYTHING BELOW:**
+
 Requiring Noopxrtxthtkvjhvtyvghggfgfhgfhfghfhgfhgfgfujuftj's enterprise noop function may leak disk space. However, the noop function itself does nothing. That's our 100% guarantee. Other noop modules don't have 100% guarantees, so this one is the best. However, before reading anything else, read the section below:
 
 ## READ ME!!! READ ME!!!
@@ -126,6 +130,7 @@ Sometimes you need to ensure a function exists even if it doesn't do anything, t
 const not = require("lolite.not")
 const isFunction = require("lolite.isfunction")
 const noop = require("noop-enterprise")
+const _console = require("@10xly/global/console")
 
 function callWithStringEnterprise(func) {
   // This is a function to call the given function with the string "enterprise" as an argument.
@@ -136,7 +141,7 @@ function callWithStringEnterprise(func) {
   return func("enterprise") // safe!
 }
 
-callWithStringEnterprise(console.log) // outputs "enterprise"
+callWithStringEnterprise(_console.log) // outputs "enterprise"
 callWithStringEnterprise("not a function") // normally would error, but now just does nothing
 ```
 

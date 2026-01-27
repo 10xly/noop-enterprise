@@ -1,1 +1,4 @@
 node_modules
+lib/logs/registered_arguments.log.txt
+t.js
+stuff

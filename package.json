@@ -1,18 +1,18 @@
 {
   "name": "noop-enterprise",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "noopxrtxthtkvjhvtyvghggfgfhgfhfghfhgfhgfgfujuftj",
   "keywords": [
     "noop",
     "enterprise"
   ],
-  "homepage": "https://github.com/enterprise-npm-ai/noop-enterprise#readme",
+  "homepage": "https://github.com/10xly/noop-enterprise#readme",
   "bugs": {
-    "url": "https://github.com/enterprise-npm-ai/noop-enterprise/issues"
+    "url": "https://github.com/10xly/noop-enterprise/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/enterprise-npm-ai/noop-enterprise.git"
+    "url": "git+https://github.com/10xly/noop-enterprise.git"
   },
   "license": "MIT",
   "author": "me",
@@ -25,9 +25,30 @@
     "test": "node --expose-gc tests/test"
   },
   "dependencies": {
+    "@10xly/global": "^1.0.0",
+    "@characters/left-parenthesis": "^2.1.0",
+    "@characters/right-parenthesis": "^2.1.0",
+    "@positive-numbers/fifteen": "^3.0.0",
+    "@positive-numbers/one": "^3.0.0",
+    "@positive-numbers/twenty-one": "^3.0.0",
+    "@rightpad/concat": "^1.0.0",
+    "@rightpad/convert2string": "^1.0.0",
     "construct-new-second": "^1.0.0",
+    "empty-string": "^1.1.1",
+    "es-logical-not-operator": "^1.0.0",
+    "fizzbuzz-enterprise": "^1.0.0",
+    "immediate-error": "^2.0.0",
+    "integer-value-positive-zero": "^1.0.2",
     "is-equal": "^1.7.0",
-    "lolite.__private.date": "^1.1.15"
+    "javascript-interpreter": "^1.0.0",
+    "json-stringify-safe": "^5.0.1",
+    "lolite.__private.date": "^1.1.15",
+    "no_op": "^1.0.0",
+    "path-__dirname": "^2.1.0",
+    "set-function-name": "^2.0.2",
+    "str-replaceallof-es": "^1.0.0",
+    "subtract": "^0.0.3",
+    "utf8-byte-length": "^1.0.5"
   },
   "devDependencies": {
     "enterprise-10x-testing-framework-js": "^1.0.1"
