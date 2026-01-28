@@ -1,6 +1,6 @@
 {
   "name": "noop-enterprise",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "noopxrtxthtkvjhvtyvghggfgfhgfhfghfhgfhgfgfujuftj",
   "keywords": [
     "noop",
@@ -33,6 +33,7 @@
     "@positive-numbers/twenty-one": "^3.0.0",
     "@rightpad/concat": "^1.0.0",
     "@rightpad/convert2string": "^1.0.0",
+    "boolean-pro": "1.0.0",
     "construct-new-second": "^1.0.0",
     "empty-string": "^1.1.1",
     "es-logical-not-operator": "^1.0.0",
